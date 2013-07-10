@@ -90,7 +90,7 @@ if(require.main == module) {
     var outJson = JSON.stringify(checkJson, null, 4);
     console.log(outJson);
 
-	var checkJson2 = checkUrl(program.rul, program.checks);
+	var checkJson2 = checkUrl(program.url, program.checks);
 	var outJson2 = JSON.stringify(checkJson2,null,4);
 	console.log(outJson2);
 
